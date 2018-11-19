@@ -10,7 +10,9 @@ h1, h2 {
 }
 
 p {
-	color: green;
+	color: gray;
 	text-align: center;
 	font-family: Helvetica;
+	font-weight: lighter;
+	font-style: italic;
 }
