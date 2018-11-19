@@ -3,13 +3,14 @@ body {
 
 }
 
-h1, p {
+h1, h2 {
 	color: gray;
 	text-align: center;
 	font-family: Helvetica;
 }
 
-h2 {
+p {
 	font-style: italic;
 	color: green;
+	text-align: center;
 }
