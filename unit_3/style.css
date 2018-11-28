@@ -27,6 +27,7 @@ h1 {
 	font-family: Helvetica, sans-serif; 
 	text-align: center;
 	font-style: italic;
+	margin-bottom: 50px;
 }
 
 .button {
@@ -50,3 +51,7 @@ img {
 	width: 50%;
 
  }
+
+.logo {
+	margin: 10px, 10px;
+}
