@@ -36,7 +36,6 @@ img {
 
 .announcement {
 	text-align: center;
-	background-color: #ffffff
 }
 
 .theogroup {
@@ -48,5 +47,55 @@ img {
 
  }
 
+ .bestsellers {
+ 	width: 20%;
+ }
+
 .logo {
 	width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.giftpacks {
+	width:50%;
+}
+
+.blogpost {
+	position: relative;
+	width: 100%;
+}
+
+.blogheading {
+	position: absolute;
+	top: 200px;
+	left: 500px;
+	width: 100%;
+	font-size: 20pt;
+}
+
+.edit {
+width: 50%;
+
+}
+
+.new {
+	position: relative;
+	width: 100%;
+}
+
+.new_in {
+	position: absolute;
+	top: 200px;
+	left: 500px;
+	width: 100%;
+	font-size: 20pt;
+}
+
+footer {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-style: italic;
+	font-size: 10px;
+}
