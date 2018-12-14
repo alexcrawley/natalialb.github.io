@@ -4,6 +4,7 @@
 <head>
 	<title>Blooming Good Coffee</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
 	<div class="announcement">
@@ -11,19 +12,30 @@
 	</div>
 	<header> 
 		<a href="#">Cart</a>
-		<a href="#">Sign In</a / <a href="#">Register</a>
+		<a href="#">Sign In</a> 
+		<div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div> <a href="#">Register</a>
 		<form>
 			<input type="text" placeholder="Search" id="search">
 			<input type="submit" value="submit">
 		</form>
-		<img class="logo" src="images/logo_transparent.png" alt="Blooming Good Coffee">
+		<img class="logo" src="images/logo_ga.png" alt="Blooming Good Coffee">
 		<p id="slogan">Slow Coffee, Fast Delivery</p>
 		<nav>
-			<a href="#">About</a>
-			<a href="#">Products</a>
-			<a href="#">Collections</a>
-			<a href="#">Blog</a>
-			<a href="mailto:hello@bloominggoodcoffee.co">Contact</a>
+			<a class="nav" href="#">About</a>
+			<a class="nav" href="#">Products</a>
+			<a class="nav" href="#">Collections</a>
+			<a class="nav" href="#">Blog</a>
+			<a class="nav" href="mailto:hello@bloominggoodcoffee.co">Contact</a>
 		</nav>
 	</header>
 	<section id="intro">
@@ -31,17 +43,21 @@
 <img src="images/all_brands.jpg" alt="Stelton Coffee Maker & Cups" title="Theo Slow Brew Coffee Maker"> 
 		
 	</section>
-	<section>
-		<img src="images/theo_group.jpg" class="theogroup">
-		<h2>Coffee Makers</h2>
+	<section class="productgroups">
+		<a href="#"><img src="images/theo_group.jpg"></a>
+		<a href="#"><h2>Coffee Makers</h2></a>
+		<hr>
+		<p>Shop our curated selection of coffee makers made with high quality materials from the best brands</p>
 	</section>
-	<section>
-		<img src="images/old_spike.jpg" class="oldspike">
-		<h2>Coffee Beans</h2>
+	<section class="productgroups">
+		<a href="#"><img src="images/old_spike.jpg"></a>
+		<a href="#"><h2>Coffee Beans</h2></a>
+		<hr>
+		<p>Find your favourite coffee blend from Old Spike, hand roasted in Peckham</p>
 	</section>
 	<div class="new">
-			<img src="images/blog_post.jpg"> 
-			<h2 class="new_in">New In</h2>
+			<a href="#"><img src="images/blog_post.jpg"></a>
+			<h2 class="new_in"><a href="#">New In</a></h2>
 	</section>
 </div>
 	<section>
@@ -75,31 +91,31 @@
 	<div class="blogpost">
 		<article>
 			<img src="images/blog_post.jpg"> 
-			<h2 class="blogheading">New Blog Post</h2>
+			<h2 class="blogheading"><a href="#">New Blog Post</a></h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 		consequat.</p>
 		</article>
 	</div>
-	<section>
-		<img src="images/collar_grinder.jpg" class="giftpacks">
+	<section class="productgroups">
+		<img src="images/collar_grinder.jpg">
 		<h3>Gift Pack 1</h3>
 	</section>
-	<section>
-		<img src="images/french_press_group.jpg" class="giftpacks">
+	<section class="productgroups">
+		<img src="images/french_press_group.jpg">
 		<h3>Gift Pack 2</h3>
 	</section>
-	<section>
-		<img src="images/coffee_makers.jpg" class="giftpacks">
+	<section class="productgroups">
+		<img src="images/coffee_makers.jpg">
 		<h3>Gift Pack 3</h3>
 	</section>
-	<section>
-		<img src="images/french_press.jpg" class="edit"> 
+	<section class="productgroups">
+		<img src="images/french_press.jpg"> 
 		<h3>Edit/Trend</h3>
 	</section>
-	<section>
-		<img src="images/mug_filter.jpg" class="edit"> 
+	<section class="productgroups">
+		<img src="images/mug_filter.jpg"> 
 		<h3>Edit/Trend</h3>
 	</section>
 	 <div class="container">
@@ -111,7 +127,7 @@
 		</form>
 	</div>
 	<footer>
-		<a href="#">Instagram</a>
+		<i class="fab fa-instagram"></i><a href="#">Instagram</a>
 		<a href="#">Facebook</a>
 		<a href="#">Pinterest</a>
 	</footer>
