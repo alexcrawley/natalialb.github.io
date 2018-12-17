@@ -54,6 +54,7 @@ p {
 .new {
 	position: relative;
 	width: 100%;
+	clear: both;
 }
 
 .new_in {
