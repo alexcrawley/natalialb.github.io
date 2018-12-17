@@ -5,7 +5,10 @@ body {
 	background-color: #cccccc;
 	font-family: Heebo, sans-serif; 
 	font-size: 16px;
+	position: relative;
+	text-align: center;
 }
+
 
 .wrapper {
 	width: 1080px;
@@ -16,7 +19,7 @@ body {
 	margin-right: 30px;
 	margin-left: 30px;
 	margin-bottom: 30px;
-}
+	}
 
 a {
 	color: inherit;
@@ -24,13 +27,15 @@ a {
 }
 
 a:hover { 
-color: #ffffff; }
+	color: #ffffff; 
+}
 
 nav {
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px; 
 	margin: 2em auto;
+	background-color: #E8C66A;
 
 }
 
@@ -43,7 +48,8 @@ h1 {
 p {
 	font-family: 'Lora', serif;
 	font-size: 1em;
-    width: 30em;
+	width: 30em;
+	margin: 0 auto;
 }
 
 #slogan { 
@@ -74,16 +80,18 @@ img {
 
 .announcement {
 	text-align: center;
-	width: 100%;
 }
 
 .group_one { 
-	width: 50%; 
+	width: 30em; 
+	margin: 2em auto;
 	float: left;
+	
 }
 
 .group_two {
-	width: 50%;
+	width: 30em;
+	margin: 2em auto;
 	float: right;
 }
 
@@ -95,31 +103,88 @@ img {
 	width: 50%;
     display: block;
     margin: 1em auto;
+    clear: both;
 }
 
 .blogpost {
 	position: relative;
 	width: 100%;
+	background-color: #E89C6C;
 }
 
 .blogheading {
 	position: absolute;
 	top: 200px;
 	left: 500px;
-	width: 100%;
 	font-size: 20pt;
 }
 
-.productgroups { 
-	width: 30em; 
+.new {
+	position: relative;
+	width: 100%;
+	clear: both;
 }
 
+.new_in {
+	position: absolute;
+	top: 200px;
+	left: 500px;
+	/*width: 100%;*/
+	font-size: 20pt;
+	/*background-color: yellow;*/
+}
+
+.gift_one { 
+	width: 20em;
+    float: left;
+ }
+
+.gift_two { 
+width: 20em;
+float: right;
+ }
+
+ .gift_three { 
+ 	width: 20em;
+	float: left;
+  }
+
+.edit_one {
+width: 30em;
+float: left;
+} 
+
+.edit_two { 
+width: 30em;
+float: right;
+ }
+
+ .container { 
+ clear: both;
+  }
+
+ul {
+	list-style: none;
+	text-align: left;
+}
+
+section { 
+background-color: #FFE2B8; }
+
+.container { 
+background-color: #E8583B }
+
+header { 
+background-color:  #FFED74
+ }
 
 footer {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	font-style: italic;
 	font-size: 10px;
+	clear: both;
+	background-color: #FF957E
 }
 
 
