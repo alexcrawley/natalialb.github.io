@@ -7,28 +7,27 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
-	<div class="announcement">
-		<p>Free standard UK delivery over £50 - Free 14 day returns - Next day delivery available</p>
-	</div>
-	<header> 
-		<a href="#">Cart</a>
-		<a href="#">Sign In</a> 
-		<div class="container">
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
-        
-    <button type="submit">Login</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-  </div> <a href="#">Register</a>
-		<form>
-			<input type="text" placeholder="Search" id="search">
-			<input type="submit" value="submit">
-		</form>
-		<img class="logo" src="images/logo_ga.png" alt="Blooming Good Coffee">
+	<div class="wrapper">
+		<header> 
+			<div class="announcement">
+				<p>Free standard UK delivery over £50 - Free 14 day returns - Next day delivery available</p>
+			</div>
+			<a href="#">Cart</a>
+			<a href="#">Sign In</a> 
+			<div class="container">
+		        <label for="uname"><b>Username</b></label>
+		        <input type="text" placeholder="Enter Username" name="uname" required>
+		        <label for="psw"><b>Password</b></label>
+		        <input type="password" placeholder="Enter Password" name="psw" required>
+		        <button type="submit">Login</button>
+		        <label><input type="checkbox" checked="checked" name="remember"> Remember me</label>
+            </div> 
+            <a href="#">Register</a>
+			<form>
+				<input type="text" placeholder="Search" id="search">
+				<input type="submit" value="submit">
+			</form>
+        <img class="logo" src="images/logo_ga.png" alt="Blooming Good Coffee">
 		<p id="slogan">Slow Coffee, Fast Delivery</p>
 		<nav>
 			<a class="nav" href="#">About</a>
@@ -39,16 +38,14 @@
 		</nav>
 	</header>
 	<section id="intro">
-
-<img src="images/all_brands.jpg" alt="Stelton Coffee Maker & Cups" title="Theo Slow Brew Coffee Maker"> 
-		
+		<img src="images/all_brands.jpg" alt="Stelton Coffee Maker & Cups" title="Slow Brew Coffee Maker"> 
 	</section>
-	<section class="productgroups">
+	<section class="group_one">
 		<a href="#"><img src="images/theo_group.jpg"></a>
 		<a href="#"><h2>Coffee Makers</h2></a>
 		<p>Shop our curated selection of coffee makers made with high quality materials from the best brands</p>
 	</section>
-	<section class="productgroups">
+	<section class="group_two">
 		<a href="#"><img src="images/old_spike.jpg"></a>
 		<a href="#"><h2>Coffee Beans</h2></a>
 		<p>Find your favourite coffee blend from Old Spike, hand roasted in Peckham</p>
@@ -128,6 +125,8 @@
 		<i class="fab fa-instagram"></i><a href="#">Instagram</a>
 		<a href="#">Facebook</a>
 		<a href="#">Pinterest</a>
+		<p>&copy; Blooming Good Coffee 2018</p>
 	</footer>
+	</div>
 </body>
 </html>

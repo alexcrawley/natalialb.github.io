@@ -35,7 +35,7 @@ h1 {
 p {
 	font-family: 'Lora', serif;
 	font-size: 1em;
-	width: 30em;
+    width: 30em;
 }
 
 #slogan { 
@@ -55,12 +55,12 @@ img {
 	margin: 1em auto;
 }
 
-.productgroups {
+.group_one .group_two {
 	width: 30em;
 	margin: 2em auto;
 }
 
- .bestsellers {
+.bestsellers {
  	width: 20%;
  }
 
@@ -101,4 +101,9 @@ footer {
 	margin-bottom: 50px;
 	font-style: italic;
 	font-size: 10px;
+}
+
+.wrapper {
+	width: 1080px;
+	margin: 0 auto;
 }
