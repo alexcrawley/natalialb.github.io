@@ -15,10 +15,13 @@ body {
 	margin: 0 auto;
 }
 
+<<<<<<< HEAD
 header { 
 background-color:  #FFED74
  }
 
+=======
+>>>>>>> 5103ea3df5740d3ea94c7622116576f53e020fb5
 .nav {
 	margin-right: 30px;
 	margin-left: 30px;
@@ -64,6 +67,23 @@ p {
 	font-size: 1.2em;
 }
 
+<<<<<<< HEAD
+=======
+.new {
+	position: relative;
+	width: 100%;
+	clear: both;
+}
+
+.new_in {
+	position: absolute;
+	top: 200px;
+	left: 500px;
+	width: 100%;
+	font-size: 20pt;
+}
+
+>>>>>>> 5103ea3df5740d3ea94c7622116576f53e020fb5
 img {
 	width: 100%;
 }
@@ -74,7 +94,10 @@ img {
 
 .group_one { 
 	width: 30em; 
+<<<<<<< HEAD
 	/*background-color: blue;*/
+=======
+>>>>>>> 5103ea3df5740d3ea94c7622116576f53e020fb5
 	margin: 2em auto;
 	float: left;
 	
@@ -82,7 +105,10 @@ img {
 
 .group_two {
 	width: 30em;
+<<<<<<< HEAD
 	/*background-color: purple;*/
+=======
+>>>>>>> 5103ea3df5740d3ea94c7622116576f53e020fb5
 	margin: 2em auto;
 	float: right;
 }
@@ -108,14 +134,20 @@ img {
 	position: absolute;
 	top: 200px;
 	left: 500px;
+<<<<<<< HEAD
 	/*width: 100%;*/
+=======
+>>>>>>> 5103ea3df5740d3ea94c7622116576f53e020fb5
 	font-size: 20pt;
 }
 
 .new {
 	position: relative;
 	width: 100%;
+<<<<<<< HEAD
 	/*background-color: green;*/
+=======
+>>>>>>> 5103ea3df5740d3ea94c7622116576f53e020fb5
 	clear: both;
 }
 
@@ -129,6 +161,7 @@ img {
 }
 
 .gift_one { 
+<<<<<<< HEAD
 	width: 29%;
     float: left;
     padding: 10px;
@@ -147,6 +180,20 @@ padding: 10px;
 	float: left;
 	padding: 10px;
     margin: 10px;
+=======
+	width: 20em;
+    float: left;
+ }
+
+.gift_two { 
+width: 20em;
+float: right;
+ }
+
+ .gift_three { 
+ 	width: 20em;
+	float: left;
+>>>>>>> 5103ea3df5740d3ea94c7622116576f53e020fb5
   }
 
 .edit_one {
@@ -173,6 +220,13 @@ background-color: #FFE2B8; }
 
 .container { 
 background-color: #E8583B }
+<<<<<<< HEAD
+=======
+
+header { 
+background-color:  #FFED74
+ }
+>>>>>>> 5103ea3df5740d3ea94c7622116576f53e020fb5
 
 footer {
 	margin-top: 50px;
