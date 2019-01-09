@@ -24,7 +24,7 @@ body {
 }
 
 
-.wrapper {
+#wrapper {
 	width: 1080px;
 	margin: 0 auto;
 }
@@ -41,8 +41,6 @@ header {
     display: block;
     margin: 2em auto;
     clear: both;
-
-
 }
 
 nav {
@@ -59,11 +57,11 @@ nav a {
 	margin-bottom: 1.1em;
 	}
 
-.nav_one a {
+.nav_icons a {
 	float: left;
  }
 
-.nav_one { 
+.nav_icons { 
 	 padding: 1em;
   }
 
@@ -72,40 +70,38 @@ a {
 	text-decoration: none;
 }
 
-a:hover { 
+.shopnow:hover {
+	border-bottom: 2px solid #000;
+	padding-bottom: 0.4em; 
+
+ }
+
+ nav a:hover {
+ border-bottom: 2px solid #000;
+	padding-bottom: 0.4em;  
+	}
+
+/*a:hover { 
 	color: #ffffff; 
-}
+}*/
+
 
 img {
 	width: 100%;
 }
 
-.item_group { 
-	width: 30em; 
-	margin: 1em;
-	float: left;	
-}
-
 .wrapper_one { 
 	width: 95%;
 	margin: auto; 
+	background-color: purpler;
 }
 
-
-.shop_button { 
-  display: inline-block;
-  padding: 12px 24px;
-  font-weight: bold;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  background: #615f8b;
-  color: #fff;
-   }
-
- .shop_button:hover { 
- 	color: #615f8b; 
- 	background: #ffffff ;
-  }
+.item_group { 
+	width: 30em; 
+	margin: 1em;
+	float: left;
+	background-color: orange;	
+}
 
 .bestsellers {
  	width: 15%;
@@ -114,30 +110,10 @@ img {
  	margin: 0;
  }
 
-.new {
+.blogpost {
 	position: relative;
 	width: 100%;
 	clear: both;
-}
-
-.new_in {
-	position: absolute;
-	top: 200px;
-	left: 500px;
-	font-size: 20pt;
-}
-
- .blogpost {
-	position: relative;
-	width: 100%;
-	clear: both;
-}
-
-.blogheading {
-	position: absolute;
-	top: 200px;
-	left: 500px;
-	font-size: 20pt;
 }
 
 p {
@@ -146,22 +122,6 @@ p {
 	width: 30em;
 	margin: 0 auto;
 }
-
-.gift_packs { 
-	width: 29%;
-    padding: 0.9em;
-    margin: 1em;
-    float: left;
- }
-
-
-.edit_trend {
-	width: 30em;
-	float: left;
-	margin: 1em;
-
-} 
-
 
 .container { 
  	clear: both;
@@ -198,8 +158,41 @@ footer {
 	text-align: center;
 }*/
 
+/*.new {
+	position: relative;
+	width: 100%;
+	clear: both;
+}
+
+.new_in {
+	position: absolute;
+	top: 200px;
+	left: 500px;
+	font-size: 20pt;
+}*/
+
+/*.gift_packs { 
+	width: 29%;
+    padding: 0.9em;
+    margin: 1em;
+    float: left;
+ }
 
 
+.edit_trend {
+	width: 30em;
+	float: left;
+	margin: 1em;
+
+} */
+
+/*.blogheading {
+	position: absolute;
+	top: 200px;
+	left: 500px;
+	font-size: 20pt;
+}
+*/
 
 
 
