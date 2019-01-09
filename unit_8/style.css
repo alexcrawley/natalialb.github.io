@@ -81,10 +81,6 @@ a {
 	padding-bottom: 0.4em;  
 	}
 
-/*a:hover { 
-	color: #ffffff; 
-}*/
-
 
 img {
 	width: 100%;
@@ -93,14 +89,19 @@ img {
 .wrapper_one { 
 	width: 95%;
 	margin: 1.5% auto; 
-	background-color: purple;
+/*	background-color: purple;*/
+}
+
+.wrapper_two { 
+	margin: 1.5% auto;
+    width: 95%;
 }
 
 .item_group { 
 	width: 46.8%; 
 	margin: 1.5%;
 	float: left;
-	background-color: orange;	
+/*	background-color: orange;*/	
 }
 
 .bestsellers {
@@ -136,6 +137,10 @@ footer {
 	clear: both;
 }
 
+@media only screen and (max-width:1000px ) {
+.item_group { 
+float: none; }
+}
 
 
 /*h1 {
