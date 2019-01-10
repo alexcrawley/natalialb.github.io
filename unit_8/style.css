@@ -149,6 +149,7 @@ float: none;
 @media only screen and (max-width:1062px ) { 
 .bestsellers {
  width: 24%;
+ height: 310px;
  } 
 
 }
