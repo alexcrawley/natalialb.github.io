@@ -12,6 +12,7 @@ body {
 	font-size: 16px;
 	position: relative;
 	text-align: center;
+	/*margin: 10em 0;*/
 }
 
 .clearfix:after {
@@ -33,6 +34,7 @@ header {
 	/*position: fixed;*/
     /*z-index: 100;*/
     /*background-color: #F3F3F4;*/
+    /*margin: -11em 0;*/
 }
 
 .logo {
@@ -41,6 +43,17 @@ header {
     margin: 2em auto;
     clear: both;
 }
+
+.intro {
+	/*position: relative;*/
+}
+
+.text { 
+position: absolute; 
+top:32px;
+}
+
+
 
 nav {
 	text-align: center;
@@ -100,6 +113,7 @@ img {
 	width: 46.8%; 
 	margin: 1.5%;
 	float: left;
+	position: relative
 /*	background-color: orange;*/	
 }
 
