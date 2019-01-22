@@ -50,15 +50,9 @@ header {
 
 .text { 
 	position: absolute; 
-	top: 19px;
-    left: 136px;
+	top: 1%;
+    left: 36%;
 }
-
-
-h2 { 
-/*font-family: 'Old Standard TT:700', serif;*/
-/*font-size: 3em;*/
- }
 
 nav {
 	text-align: center;
@@ -76,14 +70,14 @@ nav a {
 
 .nav_icons a {
 	float: left;
- }
+}
 
 .nav_icons {
 	 width: 16%;
      margin: 2.5% 0;
      float: left;
      position: absolute;
-  }
+}
 
 a {
 	color: inherit;
@@ -94,7 +88,8 @@ a {
     text-transform: uppercase;
     letter-spacing: 0.15em;
     margin: 1em auto;
-    font-size: 0.9em; }
+    font-size: 0.9em; 
+}
 
 .newinshop { 
  	text-transform: uppercase;
@@ -106,24 +101,24 @@ a {
     top: -57px;
     left: 4px;
     color: #F3F3F4
-  }
+}
 
 .newinbutton:hover {
  	border-bottom: 2px solid #F3F3F4;
 	padding-bottom: 0.4em;
 
-  }
+}
 
 .button:hover {
 	border-bottom: 2px solid #000;
 	padding-bottom: 0.4em; 
 
- }
+}
 
  nav a:hover {
- border-bottom: 2px solid #000;
+ 	border-bottom: 2px solid #000;
 	padding-bottom: 0.4em;  
-	}
+}
 
 
 img {
@@ -152,7 +147,7 @@ img {
  	float: left;
  	margin: 1%;
  	margin-bottom: 8%;
- }
+}
 
 .blogimg {
 	position: relative;
@@ -161,7 +156,7 @@ img {
 }
 
 .blogtext { 
-width: 100%; 
+	width: 100%; 
 }
 
 p {
@@ -172,17 +167,17 @@ p {
 }
 
 h3 { 
-margin: 1em auto;
-text-transform: uppercase;
-letter-spacing: 0.15em; 
+	margin: 1em auto;
+	text-transform: uppercase;
+	letter-spacing: 0.15em; 
 	margin: 1.2em auto;
 	font-size: 1.3em;
- }
+}
 
 .container { 
  	clear: both;
  	margin: 16% auto; 
-  }
+}
 
 input[type=text] {
     margin: 5px;
@@ -192,9 +187,7 @@ input[type=text] {
     padding-bottom: 6px;
     font-family: Heebo, sans-serif; 
 	font-size: 16px;
-	/*-webkit-transition: width 0.4s ease-in-out;*/
-  	/*transition: width 0.4s ease-in-out;*/
-    }
+}
 
 input[type=text]:focus { 
 outline: none;
@@ -231,113 +224,120 @@ label {
 }
 
 #toggle { 
-display: none;
+	display: none;
 } 
 
 
 @media only screen and (max-width:1135px ) {
 
-.item_group {  
-	margin: 0.5%;
-    width: 32%;
-}
+	.item_group {  
+		margin: 0.5%;
+	    width: 32%;
+	}
 
-.bestsellers { 
-	width: 19%;
- 	margin: 0.5%;
- }
+	.bestsellers { 
+		width: 19%;
+	 	margin: 0.5%;
+	}
 
-.blogtext p { 
-width: 54%;
-}
+	.blogtext p { 
+		width: 54%;
+	}
 
 }
 
 
 @media only screen and (max-width:1000px ) {
 
-.item_group { 
-    width: 46%;
-    margin: 1%;
+	.item_group { 
+	    width: 46%;
+	    margin: 1%;
 	}
 
-.bestsellers { 
-	width: 21%;
-    margin: 2%;
- }
+	.bestsellers { 
+		width: 21%;
+	    margin: 2%;
+	 }
 
-.bestsellers:nth-of-type(5) {
-	display: none; }
-	
-.blogimg { 
-width: 80%; 
-} 
+	.bestsellers:nth-of-type(5) {
+		display: none; 
+	}
+		
+	.blogimg { 
+		width: 80%; 
+	} 
 
 }
 
 @media only screen and (max-width:995px ) {
 	.item_group { 
-    width: 46%;
-    margin: 1%; 
-	float:left;}
+	    width: 46%;
+	    margin: 1%; 
+		float:left;
+	}
 
 	.blogimg { 
-	width: 100%; 
+		width: 100%; 
 	} 
 
 	.blogtext { 
-	width: 83%;
-	margin: auto; }
+		width: 83%;
+		margin: auto; 
+	}
 }
 
 @media only screen and (max-width:900px ) {
 
-nav {
-	display:none;
-}
+	nav {
+		display:none;
+	}
 
-nav a:link { 
-display: block;
-}
+	nav a:link { 
+		display: block;
+	}
 
-nav a:hover { 
-border-bottom: none;
-padding: 0;}
+	nav a:hover { 
+		border-bottom: none;
+		padding: 0;
+	}
 
-header {
-	position: relative;
-    margin: 1.5em 0;
-}
+	header {
+		position: relative;
+	    margin: 1.5em 0;
+	}
 
-body { 
-margin: -0.5em 0; }
+	body { 
+		margin: -0.5em 0; 
+	}
 
-label {
-	display: block;
-}
+	label {
+		display: block;
+	}
 
-#toggle:checked + nav{
-	display:block;
+	#toggle:checked + nav{
+		display:block;
 
-}
+	}
 
-.logo {
-	width: 50%;
-}
+	.logo {
+		width: 50%;
+		}
 
 }
 
 @media only screen and (max-width:876px ) {
 	.bestsellers { 
-	width: 23%;
-    margin: 1%;
-    font-size: 0.8em; }
+		width: 23%;
+	    margin: 1%;
+	    font-size: 0.8em; 
+	}
 
  }
 
 @media only screen and (max-width:855px ) {
 	.container p { 
-	width: 41%; }
+		width: 41%; 
+	}
 
 
 }
@@ -348,31 +348,35 @@ label {
 		float: none;
 	    width: 60%;
 	    margin: auto;
-	    }
+	}
 
 	.item_group:nth-of-type(3) { 
-		margin-bottom: 10%; }
+		margin-bottom: 10%; 
+	}
 
 	.bestsellers { 
-	float: none;
-	width: 50%; 
-	margin: auto;}
+		float: none;
+		width: 50%; 
+		margin: auto;
+		font-size: 1em;
+	}
 	
 
 	.container p { 
-	width:59%; }
+		width:59%; 
+	}
 
 	.logo {
-	width: 65%;
-}
+		width: 65%;
+	}
 
 }
 
 @media only screen and (max-width:650px ) {
 
-.logo {
-	width: 90%;
-}
+	.logo {
+		width: 90%;
+	}
 
 }
 
