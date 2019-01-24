@@ -48,7 +48,7 @@ header {
 	position: relative;
 }
 
-.text { 
+.brand_name { 
 	position: absolute; 
 	top: 1%;
     left: 36%;
@@ -79,6 +79,11 @@ nav a {
      position: absolute;
 }
 
+.nav_icons a:hover { 
+	border-bottom: none; 
+	padding: 0;
+}
+
 a {
 	color: inherit;
 	text-decoration: none;
@@ -98,7 +103,7 @@ a {
     font-size: 0.9em;
     float: left;
     position: relative;
-    top: -57px;
+    top: -70px;
     left: 4px;
     color: #F3F3F4
 }
@@ -115,7 +120,7 @@ a {
 
 }
 
- nav a:hover {
+nav a:hover {
  	border-bottom: 2px solid #000;
 	padding-bottom: 0.4em;  
 }
@@ -149,6 +154,10 @@ img {
  	margin-bottom: 8%;
 }
 
+span { 
+	font-weight: 700; 
+}
+
 .blogimg {
 	position: relative;
 	width: 69%;
@@ -164,6 +173,17 @@ p {
 	font-size: 1.15em;
 	width: 78%;
 	margin: 1em auto;
+}
+
+h2 { 
+	font-family: 'Old Standard TT', serif;
+	font-size: 10em;
+	font-weight: 400;
+	font-style: italic;
+	position: absolute;
+    top: 54%;
+    left: 3%;
+    color: #F3F3F4;
 }
 
 h3 { 
@@ -201,7 +221,7 @@ input[type=submit] {
 
 }
 
- input[type=submit]:hover {
+input[type=submit]:hover {
 	border-bottom: 2px solid #000;
 	padding-bottom: 0.4em; 
 }
@@ -228,6 +248,15 @@ label {
 } 
 
 
+@media only screen and (max-width:1160px ) {
+
+	h2 { 
+	top: 45%; 
+}
+
+}
+
+
 @media only screen and (max-width:1135px ) {
 
 	.item_group {  
@@ -241,7 +270,7 @@ label {
 	}
 
 	.blogtext p { 
-		width: 54%;
+		width: 85%;
 	}
 
 }
@@ -283,6 +312,10 @@ label {
 		width: 83%;
 		margin: auto; 
 	}
+
+	h2 { 
+	top: 36%; 
+	}
 }
 
 @media only screen and (max-width:900px ) {
@@ -322,6 +355,11 @@ label {
 		width: 50%;
 		}
 
+	h2 {
+	top: 30%;
+    font-size: 9em;
+	}
+
 }
 
 @media only screen and (max-width:876px ) {
@@ -330,6 +368,10 @@ label {
 	    margin: 1%;
 	    font-size: 0.8em; 
 	}
+
+	.brand_name { 
+	top: 7%; 
+}
 
 }
 
@@ -345,8 +387,12 @@ label {
 
 	.item_group { 
 		float: none;
-	    width: 60%;
+	    width: 70%;
 	    margin: auto;
+	}
+
+	p { 
+		width: 100%; 
 	}
 
 	.item_group:nth-of-type(3) { 
@@ -362,11 +408,15 @@ label {
 	
 
 	.container p { 
-		width:59%; 
+		width:85%; 
 	}
 
 	.logo {
 		width: 65%;
+	}
+
+	.blogtext { 
+	width: 100%; 
 	}
 
 }
@@ -377,8 +427,19 @@ label {
 		width: 90%;
 	}
 
+	h2 { 
+	top: 25%;
+    font-size: 6em; 
+	}
+
 }
 
+@media only screen and (max-width:500px ) {
+	h2 { 
+	    top: 18%;
+	    left: 7%;
+	    font-size: 5em; 
+}
 
 
 
