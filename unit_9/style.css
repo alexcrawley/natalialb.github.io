@@ -112,8 +112,8 @@ a {
     margin: 1em 2em;
     font-size: 0.9em;
     float: left;
-    position: relative;
-    top: -70px;
+    position: absolute;
+    top: 85%;
     left: 4px;
     color: #F3F3F4
 }
@@ -232,7 +232,7 @@ input[type=submit] {
 	font-size: 16px;
 	background-color: #F3F3F4;
 	border: none;
-	transition:opacity ease-in-out 0.05s;
+	transform: translateX(50%) 1s;
 
 }
 
@@ -329,6 +329,10 @@ label {
 
 	h2 { 
 	top: 36%; 
+	}
+
+	.newinshop { 
+	top: 78%; 
 	}
 }
 
@@ -444,6 +448,10 @@ label {
 	h2 { 
 	top: 25%;
     font-size: 6em; 
+	}
+
+	.newinshop { 
+	top: 67%; 
 	}
 
 }
