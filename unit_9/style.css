@@ -215,6 +215,7 @@ input[type=text] {
     font-family: Heebo, sans-serif; 
 	font-size: 16px;
 	transition:all ease-in-out 1s;
+	width: 10%;
 
 }
 
@@ -232,8 +233,6 @@ input[type=submit] {
 	font-size: 16px;
 	background-color: #F3F3F4;
 	border: none;
-	transform: translateX(50%) 1s;
-
 }
 
 input[type=submit]:hover {
