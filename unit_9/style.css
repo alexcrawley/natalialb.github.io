@@ -66,7 +66,16 @@ nav a {
 	margin-right: 1.1em;
 	margin-left: 1.1em;
 	margin-bottom: 1.1em;
-	}
+	transition:border-bottom ease-in-out 0.05s;
+
+}
+
+nav a:hover {
+ 	border-bottom: 2px solid #000;
+	padding-bottom: 0.4em;  
+	
+}
+
 
 .nav_icons a {
 	float: left;
@@ -93,7 +102,8 @@ a {
     text-transform: uppercase;
     letter-spacing: 0.15em;
     margin: 1em auto;
-    font-size: 0.9em; 
+    font-size: 0.9em;
+
 }
 
 .newinshop { 
@@ -106,12 +116,18 @@ a {
     top: -70px;
     left: 4px;
     color: #F3F3F4
+    transition: border-bottom ease-in-out 0.05s;
 }
 
 .newinbutton:hover {
  	border-bottom: 2px solid #F3F3F4;
 	padding-bottom: 0.4em;
 
+
+}
+
+.button { 
+	transition:border-bottom ease-in-out 0.05s; 
 }
 
 .button:hover {
@@ -119,12 +135,6 @@ a {
 	padding-bottom: 0.4em; 
 
 }
-
-nav a:hover {
- 	border-bottom: 2px solid #000;
-	padding-bottom: 0.4em;  
-}
-
 
 img {
 	width: 100%;
@@ -202,12 +212,18 @@ h3 {
 input[type=text] {
     margin: 5px;
     border: none;
-    border-bottom: 2px solid #000;
     background-color: #F3F3F4;
     padding-bottom: 6px;
     font-family: Heebo, sans-serif; 
 	font-size: 16px;
+	transition:all ease-in-out 1s;
+
 }
+
+input[type=text]:hover { 
+	border-bottom: 2px solid #000;
+	width: 25%;
+ }
 
 input[type=text]:focus { 
 outline: none;
@@ -218,6 +234,7 @@ input[type=submit] {
 	font-size: 16px;
 	background-color: #F3F3F4;
 	border: none;
+	transition:opacity ease-in-out 0.05s;
 
 }
 
@@ -249,10 +266,9 @@ label {
 
 
 @media only screen and (max-width:1160px ) {
-
 	h2 { 
 	top: 45%; 
-}
+	}
 
 }
 
